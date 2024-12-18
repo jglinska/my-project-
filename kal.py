@@ -1,0 +1,42 @@
+import tkinter
+from tkinter import *
+logs = tkinter.Tk()
+logs.title('kalkulators')
+logs.geometry('500x500+600+100') #размер и расположение окна
+entry = Entry(logs, width=15, font=('', 20))
+entry.place(x = 125, y = 50)
+btn1 = Button(logs, bg= 'green', fg='white', font=('', 20), text='7')
+btn1.place(x = 125, y =100, width=50, height=50)
+btn2 = Button(logs, bg= 'green', fg='white', font=('', 20), text='8')
+btn2.place(x = 185, y =100, width=50, height=50)
+btn3 = Button(logs, bg= 'green', fg='white', font=('', 20), text='9')
+btn3.place(x = 245, y =100, width=50, height=50)
+btn_sum = Button(logs, bg= 'green', fg='white', font=('', 20), text='+')
+btn_sum.place(x = 305, y =100, width=50, height=50)
+btn4 = Button(logs, bg= 'green', fg='white', font=('', 20), text='4')
+btn4.place(x = 125, y =160, width=50, height=50)
+btn5 = Button(logs, bg= 'green', fg='white', font=('', 20), text='5')
+btn5.place(x = 185, y =160, width=50, height=50)
+btn6 = Button(logs, bg= 'green', fg='white', font=('', 20), text='6')
+btn6.place(x = 245, y =160, width=50, height=50)
+btn_min = Button(logs, bg= 'green', fg='white', font=('', 20), text='-')
+btn_min.place(x = 305, y =160, width=50, height=50)
+btn7 = Button(logs, bg= 'green', fg='white', font=('', 20), text='1')
+btn7.place(x = 125, y =220, width=50, height=50)
+btn8 = Button(logs, bg= 'green', fg='white', font=('', 20), text='2')
+btn8.place(x = 185, y =220, width=50, height=50)
+btn9 = Button(logs, bg= 'green', fg='white', font=('', 20), text='3')
+btn9.place(x = 245, y =220, width=50, height=50)
+btn_reiz = Button(logs, bg= 'green', fg='white', font=('', 20), text='*')
+btn_reiz.place(x = 305, y =220, width=50, height=50)
+btn10 = Button(logs, bg= 'green', fg='white', font=('', 20), text='0')
+btn10.place(x = 125, y =280, width=50, height=50)
+btn11 = Button(logs, bg= 'green', fg='white', font=('', 20), text='=')
+btn11.place(x = 185, y =280, width=110, height=50)
+btn_dal = Button(logs, bg= 'green', fg='white', font=('', 20), text='/')
+btn_dal.place(x = 305, y =280, width=50, height=50)
+
+
+
+
+logs.mainloop()
